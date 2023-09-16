@@ -1,0 +1,116 @@
+/* Estilos globais */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 ;
+  padding: 0;
+  background: var(--Pink, #F1B5F6);
+  background: linear-gradient(180deg, #F1B5F6 0%, #FFDEEF 31.25%, rgba(241, 181, 246, 0.60) 66.67%, #F1B5F6 100%), url("./assets/fundo3.png"), lightgray 100% / cover repeat;
+  /* background-color: #FFDEEF; */
+  /* background-image: linear-gradient(to bottom right, #FFDEEF, #F85557); */
+
+  color: #F85557;
+
+}
+
+/* Estilos para o cabeçalho */
+header {
+  /* background-color: #FFDEEF; */
+  background-color: #FFF0FA;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 8px 10% 8px 10%;
+  flex-direction: row;
+
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #F85557;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Estilos para as seções de descrição */
+section {
+  padding: 40px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.description {
+  width: 40rem;
+
+}
+
+.title {
+  /* background-color: #FFDEEF; */
+  font-size: 2rem;
+
+}
+
+.sub-description {
+  /* background-color: #FFF0FA; */
+  /* background-color: #FFDEEF; */
+  text-align: left;
+  font-size: 1.5rem;
+
+}
+
+h2, h3 {
+  color: #F85557;
+}
+
+/* Estilos para o carrossel de cupcakes */
+.cupcake-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow-x: scroll; */
+  padding: 20px;
+  /* width: 50rem; */
+  width: 60rem;
+  height: 60rem;
+  /* background-color: #FFDEEF; */
+
+}
+
+.cupcake {
+  /* background-color: #F3CAD9; */
+  border-radius: 10px;
+  /* padding: 20px; */
+  /* margin: 10px; */
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

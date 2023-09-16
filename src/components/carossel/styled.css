@@ -1,0 +1,37 @@
+/* CSS para o componente de carrossel */
+.cupcake-carousel {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .cupcake-slide {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .cupcake-slide img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #F3CAD9;
+    color: #F85557;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 0;
+  }
+  
+  .next-button {
+    right: 0;
+  }
