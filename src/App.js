@@ -45,11 +45,6 @@ function App() {
 
         <section className="cupcake-carousel">
           <CupcakeCarousel cupcakes={cupcakes} />
-          {/* Aqui você pode usar um componente de carrossel de cupcakes */}
-          {/* <div className="cupcake">Cupcake 1</div>
-          <div className="cupcake">Cupcake 2</div>
-          <div className="cupcake">Cupcake 3</div> */}
-          {/* Adicione mais cupcakes conforme necessário */}
         </section>
       </main>
     </div>

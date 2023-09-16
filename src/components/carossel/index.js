@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./styled.css";
 
 class CupcakeCarousel extends Component {
   constructor(props) {
@@ -32,10 +33,21 @@ class CupcakeCarousel extends Component {
           &lt;
         </button>
         <div className="cupcake-slide">
+          {/* <img
+            className="slide-left"
+            src={cupcakes[currentSlide - 1]}
+            alt={`Cupcake ${currentSlide - 1}`}
+          /> */}
           <img
+            className="slide-current"
             src={cupcakes[currentSlide]}
-            alt={`Cupcake ${currentSlide + 1}`}
+            alt={`Cupcake ${currentSlide}`}
           />
+          {/* <img
+            className="slide-right"
+            src={cupcakes[currentSlide + 1]}
+            alt={`Cupcake ${currentSlide + 1}`}
+          /> */}
         </div>
         <button className="next-button" onClick={this.nextSlide}>
           &gt;

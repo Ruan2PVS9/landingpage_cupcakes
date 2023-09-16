@@ -1,20 +1,31 @@
 /* CSS para o componente de carrossel */
 .cupcake-carousel {
     position: relative;
-    max-width: 300px;
+    /* max-width: 300px; */
     margin: 0 auto;
     text-align: center;
   }
   
   .cupcake-slide {
-    overflow: hidden;
-    width: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    
   }
   
   .cupcake-slide img {
     max-width: 100%;
+    width: 30rem;
+border-radius: 8%;
     height: auto;
   }
+  .slide-left {
+    max-width: 100%;
+    /* height: ; */
+    /* width: 20rem; */
+    border-radius: 8%;
+    height: auto;
+  }
+
   
   .prev-button,
   .next-button {
